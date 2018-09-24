@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./server",
+    "lib": [
+      "es2017"
+    ],
+    "types": [
+      "node", "express"
+    ]
+  },
+  "include": [
+    "./src/server.ts"
+  ],
+  "exclude": [
+    "./node_modules"
+  ]
+}
